@@ -1,0 +1,16 @@
+{
+  "name": "housedata-plugin",
+  "description": "HouseData UK property due-diligence plugin for Claude — EPC, price history, flood risk, planning and PRISM consent-gap scoring.",
+  "owner": {
+    "name": "3D7 Tech",
+    "email": "hello@housedata.uk",
+    "url": "https://housedata.uk"
+  },
+  "plugins": [
+    {
+      "name": "housedata",
+      "source": "./",
+      "description": "UK property due diligence — EPC, price history, flood risk, planning and consent-gap scoring for cash buyers, auction buyers and landlords."
+    }
+  ]
+}
