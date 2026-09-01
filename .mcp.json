@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "housedata": {
+      "type": "http",
+      "url": "https://housedata.uk/mcp",
+      "headers": {
+        "Authorization": "Bearer ${user_config.api_key}"
+      }
+    }
+  }
+}

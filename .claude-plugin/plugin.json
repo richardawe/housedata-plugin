@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "housedata",
+  "displayName": "HouseData UK Property",
+  "version": "0.1.0",
+  "description": "UK property due diligence — EPC, price history, flood risk, planning and consent-gap scoring for cash buyers, auction buyers and landlords.",
+  "author": { "name": "3D7 Tech", "email": "hello@housedata.uk", "url": "https://housedata.uk" },
+  "homepage": "https://housedata.uk",
+  "repository": "https://github.com/richardawe/housedata-plugin",
+  "license": "MIT",
+  "keywords": ["property", "uk", "epc", "conveyancing", "due-diligence", "auction"],
+  "defaultEnabled": false,
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "HouseData API key",
+      "description": "Your hd_prism_ API key from housedata.uk/prism. Sign up at housedata.uk/prism for a free trial key — PRISM consent-gap scoring requires an active subscription, other tools work on the free trial tier.",
+      "sensitive": true,
+      "required": true
+    }
+  }
+}
