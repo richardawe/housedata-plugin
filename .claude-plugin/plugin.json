@@ -2,13 +2,26 @@
   "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
   "name": "housedata",
   "displayName": "HouseData UK Property",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "UK property due diligence — EPC, price history, flood risk, planning and consent-gap scoring for cash buyers, auction buyers and landlords.",
-  "author": { "name": "3D7 Tech", "email": "hello@housedata.uk", "url": "https://housedata.uk" },
+  "author": {
+    "name": "3D7 Tech",
+    "email": "hello@housedata.uk",
+    "url": "https://housedata.uk"
+  },
   "homepage": "https://housedata.uk",
   "repository": "https://github.com/richardawe/housedata-plugin",
   "license": "MIT",
-  "keywords": ["property", "uk", "epc", "conveyancing", "due-diligence", "auction"],
+  "icon": "assets/icon.png",
+  "privacyPolicyUrl": "https://housedata.uk/privacy",
+  "keywords": [
+    "property",
+    "uk",
+    "epc",
+    "conveyancing",
+    "due-diligence",
+    "auction"
+  ],
   "defaultEnabled": false,
   "userConfig": {
     "api_key": {

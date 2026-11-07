@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.1
+
+- Add plugin icon (`assets/icon.png`, 512×512) and `privacyPolicyUrl` (https://housedata.uk/privacy) to the plugin manifest.
+
 ## 0.1.0
 
 Initial release.
